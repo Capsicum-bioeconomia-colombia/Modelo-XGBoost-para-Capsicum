@@ -1,0 +1,36 @@
+Modelo generado para clasificar especies de Capsicum usando información fisicoquímicas de los materiales.
+
+* Se debe cargar la información en el archivo de excel "Muestra_input.xlsx"
+* La variables que terminan con "_1" o "_4" o cualquier número precedido por un guión al piso, son variables binarias. Estas variables indican que la variable tiene el valor indicado por el número final y se deben llenar con 1 en caso de tener este valor o 0 en otro caso.
+Por ejemplo: la variable "Color de la "corola_4" se debe llenar con 1 en caso de que el material a clasificar tenga el color 4 en la corola y 0 en otro caso.
+
+* Se debe abrir el archivo "Ejecutar_modelo.py" y se debe modificar la ruta "workdir" a la misma    ruta en donde se encuentre guardado el modelo y todos los archivos.
+* Una vez hechos estos cambios, se debe ejecutar todo el script "Ejecutar_modelo.py" y los resultados estarán en el archivo "Muestra_output.txt" en la variable "Prediccion".
+
+Variable	                           Nombre
+Color de la mancha de la corola_2	   Amarillo
+Color de la mancha de la corola_3	   Verde-Amarillento
+Número de flores por axila_1	           Uno
+Color de la mancha de la corola_4	   Verde
+Persistencia del pedicelo en el tallo_7	   Persistente
+Color de la corola_1	                   Blanco
+Color de la mancha de la corola_0	   Sin mancha
+Color de la mancha de la corola_1	   Blanco
+Exserción del estigma_3	                   Inserto
+Color de la corola_3	                   Amarillo
+Ancho de fruto	                           Valor del ancho (cm)
+Color del filamento_7	                   Blanco con ápice morado
+Longitud hoja cotidoneidal (mm)	           Valor de la longitud (mm)
+Pubescencia del Tallo_7	                   Densa
+Peso fruto	                           Valor del peso (g)
+Color del fruto en estado inmaduro_6	   Morado oscuro
+Arrugamiento transversal del fruto_5	   Intermedio
+Pubescencia del Tallo_3	                   Escasa
+Longitud de la corola_3	                   >2,5
+Color de la corola_4	                   Amarillo-Verdoso
+
+
+Para dudas sobre este proyecto o consultas, por favor escribir a:
+jhenao@agrosavia.co
+oloaiza@agrosavia.co
+javamo93@gmail.com
